@@ -298,5 +298,5 @@ const ForeignLanguage2EnglishMap EnglishHousehold::createMedHouseholdWords() con
 const ForeignLanguage2EnglishMap EnglishHousehold::createLongHouseholdWords() const
 {
   // > 7 letters
-  return boost::assign::map_list_of("DOORBELL","DOORBELL")("AEROPLANE","AEROPLANE");
+  return boost::assign::map_list_of("DOORBELL","DOORBELL")("AEROPLANE","AEROPLANE")("THUNDER","THUNDER ");
 }
